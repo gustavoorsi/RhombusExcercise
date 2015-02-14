@@ -11,8 +11,7 @@
 	</parent>
 
 
-	<groupId>accelone.excercise</groupId>
-	<artifactId>rhombus</artifactId>
+	<groupId>accelone.excercise.rhombus</groupId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -26,8 +25,8 @@
 
 
 	<modules>
-		<module>RhombusRest</module>
-		<module>RhoumbusDomain</module>
+		<module>rest</module>
+		<module>domain</module>
 	</modules>
 
 	<dependencies>
@@ -53,4 +52,5 @@
 		</plugins>
 	</build>
 
+	<artifactId>base</artifactId>
 </project>

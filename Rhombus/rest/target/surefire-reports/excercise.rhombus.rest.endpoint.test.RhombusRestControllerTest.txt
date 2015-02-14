@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: excercise.rhombus.rest.endpoint.test.RhombusRestControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.114 sec - in excercise.rhombus.rest.endpoint.test.RhombusRestControllerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.929 sec - in excercise.rhombus.rest.endpoint.test.RhombusRestControllerTest

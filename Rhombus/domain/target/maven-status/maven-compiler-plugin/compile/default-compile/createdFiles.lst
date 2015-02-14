@@ -6,3 +6,4 @@ accelone\exercise\rhombus\printer\BasicPrinterImpl.class
 accelone\exercise\rhombus\printer\outputs\FileOutput.class
 accelone\exercise\rhombus\printer\outputs\Output.class
 accelone\exercise\rhombus\printer\outputs\ConsoleOutput.class
+accelone\exercise\rhombus\printer\BetterPrinterImpl.class

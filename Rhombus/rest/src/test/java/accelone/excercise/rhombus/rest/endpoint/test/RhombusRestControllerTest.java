@@ -1,4 +1,4 @@
-package excercise.rhombus.rest.endpoint.test;
+package accelone.excercise.rhombus.rest.endpoint.test;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;

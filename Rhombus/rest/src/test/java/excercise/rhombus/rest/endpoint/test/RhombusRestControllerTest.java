@@ -15,7 +15,7 @@ public class RhombusRestControllerTest extends AbstractRestControllerTest {
 		mockMvc.perform(get("/rhombus")) //
 				.andExpect(status().isOk()) //
 				.andExpect(content().contentType(MediaType.TEXT_PLAIN_VALUE)) //
-				.andExpect(content().string(RHOMBUS_64));
+				.andExpect(content().string(RHOMBUS_64_WELL_FORMED));
 
 	}
 

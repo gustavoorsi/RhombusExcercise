@@ -45,6 +45,33 @@ public abstract class AbstractRestControllerTest {
 		RHOMBUS_64 = builder.toString();
 
 	}
+	
+	protected final String RHOMBUS_64_WELL_FORMED;
+
+	{
+		StringBuilder builder = new StringBuilder();
+		
+		
+		
+		
+		builder.append("                   1                   \n");
+		builder.append("                1  2  1                \n");
+		builder.append("             1  2  4  2  1             \n");
+		builder.append("          1  2  4  8  4  2  1          \n");
+		builder.append("       1  2  4  8 16  8  4  2  1       \n");
+		builder.append("    1  2  4  8 16 32 16  8  4  2  1    \n");
+		builder.append(" 1  2  4  8 16 32 64 32 16  8  4  2  1 \n");
+		builder.append(" 1  2  4  8 16 32 64 32 16  8  4  2  1 \n");
+		builder.append("    1  2  4  8 16 32 16  8  4  2  1    \n");
+		builder.append("       1  2  4  8 16  8  4  2  1       \n");
+		builder.append("          1  2  4  8  4  2  1          \n");
+		builder.append("             1  2  4  2  1             \n");
+		builder.append("                1  2  1                \n");
+		builder.append("                   1                   \n");
+
+		RHOMBUS_64_WELL_FORMED = builder.toString();
+
+	}
 
 	@Before
 	public void setup() {

@@ -46,7 +46,7 @@ public class BetterPrinterImpl implements Printer {
 			for (int j = 0; j < totalColumns-1; j++) {
 				Integer number = rhombus.getRhombusMatrix().get(i).get(j);
 				String format = "%0" + heartLength + "d";
-				String numberToString = String.format(format, number).replace("0", " ");
+				String numberToString = String.format(format, number).replace("0", BLANK_SPACE);
 				
 				output.add( numberToString );
 				output.add( BLANK_SPACE);

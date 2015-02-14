@@ -61,9 +61,23 @@ public class Rhombus {
 	 *            the number in the center of the rhombus.
 	 */
 	public Rhombus(final int heart) {
-		
-		if( heart%2 != 0 ) throw new IllegalArgumentException( "Sorry, the heart of the rhombus must be an even number." );
-		
+
+		// NOTE: I know there is a muuch muuuuuch better and elegant solution for next validation (I'm sure it is just one line with Math
+		// utils or something like that) but it happen that I can not remember it right now, so let's use this crappy and awful solution for
+		// now till I remember the other one !!! sorry !!!
+
+		double number = heart;
+		while (number / 2 > 1) {
+			number = number / 2;
+		}
+
+		if (number > (int) number) {
+			throw new IllegalArgumentException("Sorry, wrong heart number.");
+		}
+
+		// if (heart % 2 != 0)
+		// throw new IllegalArgumentException("Sorry, the heart of the rhombus must be an even number.");
+
 		this.heart = heart;
 		this.rhombusMatrix = new LinkedList<List<Integer>>();
 		makeRhomubs();

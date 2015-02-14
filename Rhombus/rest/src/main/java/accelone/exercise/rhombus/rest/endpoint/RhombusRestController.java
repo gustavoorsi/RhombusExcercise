@@ -27,7 +27,8 @@ import accelone.exercise.rhombus.printer.outputs.StringOutput;
 public class RhombusRestController {
 
 	@Autowired
-	@Qualifier(value = "basicPrinter")
+//	@Qualifier(value = "basicPrinter")
+	@Qualifier(value = "betterPrinter")
 	private Printer rhombusPrinter;
 
 	@RequestMapping(method = RequestMethod.GET, produces = { MediaType.TEXT_PLAIN_VALUE })

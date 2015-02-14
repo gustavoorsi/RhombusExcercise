@@ -2,6 +2,7 @@ package accelone.exercise;
 
 import accelone.exercise.rhombus.Rhombus;
 import accelone.exercise.rhombus.printer.BasicPrinterImpl;
+import accelone.exercise.rhombus.printer.BetterPrinterImpl;
 import accelone.exercise.rhombus.printer.Printer;
 import accelone.exercise.rhombus.printer.outputs.ConsoleOutput;
 import accelone.exercise.rhombus.printer.outputs.Output;
@@ -28,7 +29,8 @@ public class PrintRhombus {
 	}
 
 	public static void printToConsole(final Rhombus rhombus) {
-		Printer onlyPrinter = new BasicPrinterImpl();
+//		Printer onlyPrinter = new BasicPrinterImpl();
+		Printer onlyPrinter = new BetterPrinterImpl();
 
 		Output consoleOutput = new ConsoleOutput();
 

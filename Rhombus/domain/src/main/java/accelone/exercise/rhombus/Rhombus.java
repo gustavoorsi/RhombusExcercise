@@ -84,7 +84,7 @@ public class Rhombus {
 		List<List<Integer>> bottomHalfRhombus = new LinkedList<List<Integer>>();
 
 		// add the first element. (1)
-		this.rhombusMatrix.add(Arrays.asList(1));
+		this.rhombusMatrix.add(new LinkedList<Integer>(Arrays.asList(1)));
 
 		// inside this loop we are going to create the half of the rhombus.
 		while (heart % 2 == 0) {
@@ -117,7 +117,7 @@ public class Rhombus {
 		this.rhombusMatrix.addAll(bottomHalfRhombus);
 
 		// add the last element. (1)
-		this.rhombusMatrix.add(Arrays.asList(1));
+		this.rhombusMatrix.add(new LinkedList<Integer>(Arrays.asList(1)));
 	}
 
 	/**

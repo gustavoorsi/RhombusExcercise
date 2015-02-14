@@ -1,0 +1,8 @@
+accelone\exercise\rhombus\printer\outputs\StringOutput.class
+accelone\exercise\PrintRhombus.class
+accelone\exercise\rhombus\printer\Printer.class
+accelone\exercise\rhombus\Rhombus.class
+accelone\exercise\rhombus\printer\BasicPrinterImpl.class
+accelone\exercise\rhombus\printer\outputs\FileOutput.class
+accelone\exercise\rhombus\printer\outputs\Output.class
+accelone\exercise\rhombus\printer\outputs\ConsoleOutput.class

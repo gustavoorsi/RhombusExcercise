@@ -40,9 +40,9 @@ Short description to run it:
 
 1) compile the project.
 2) in command line execute:
- java -jar domain-0.0.1-SNAPSHOT.jar.original
+ java -jar domain-X.X.X-SNAPSHOT.jar.original
         (or with a main argument)
- java -jar domain-0.0.1-SNAPSHOT.jar.original 32
+ java -jar domain-X.X.X-SNAPSHOT.jar.original 32
 
 
 
